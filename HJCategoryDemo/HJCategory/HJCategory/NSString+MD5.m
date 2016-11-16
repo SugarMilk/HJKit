@@ -23,7 +23,7 @@
     for(int i = 0; i < CC_MD5_DIGEST_LENGTH; i++)
         [result appendFormat:@"%02x", digest[i]];
     
-    // 如要获取md5的16位加密字符串，截取md5的32位中间16位即可
+    // 如要获取md5的16位加密字符串，截取md5的32位加密字符串中间16位即可
     
     return result;
 }
